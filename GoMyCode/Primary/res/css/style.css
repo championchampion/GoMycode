@@ -1,0 +1,100 @@
+
+.content{
+	width: 100%;
+	height: auto;
+	
+	padding-top: 30px;
+
+}
+
+
+.menu{
+	width: 60%;
+	height: 50px;
+	border-radius: 10px;
+	margin: auto;
+	background: white;
+	border: solid 1px lightgray;
+}
+
+.corps{
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	
+
+}
+
+.im{
+	width: 19%;
+	height: 500px;
+	float: left;
+}
+
+#cap3{
+	width: 30%;
+	height: 200px;
+
+	border-radius: 40px;
+
+}
+
+ul{
+	margin: auto;
+	width: auto;
+	float: none;
+	box-align: center;
+	text-align: center;
+	 
+}
+
+li{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	border-radius: 2px;
+	display: inline-block;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	margin: 10px;
+	size: 20px;
+}
+
+.landing{
+	margin: auto;
+	float: left;
+	width: 60%;
+	height: 500px;
+	
+}
+p{
+	text-align: center;
+	color: red;
+	font-size: 15px;
+	margin: 10px;
+	padding: 5px;
+}
+h2{
+	width: 80%;
+	margin: auto;
+}
+
+.btn{
+	margin-top: 40px;
+}
+
+#bouton{
+	margin-top: 5px;
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	display: inline-block;
+	background: blue;
+	text-align: center;
+	color: white;
+	font-style: italic;
+	size: 30px;
+	padding-top: 10px;
+}
