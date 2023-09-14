@@ -1,4 +1,8 @@
-
+*{
+	margin: 0%;
+	box-sizing: none;
+	padding: 0%;
+}
 .content{
 	width: 100%;
 	height: auto;
@@ -9,12 +13,10 @@
 
 
 .menu{
-	width: 60%;
-	height: 50px;
-	border-radius: 10px;
-	margin: auto;
-	background: white;
-	border: solid 1px lightgray;
+	display: flex;
+	justify-content: center;
+	
+
 }
 
 .corps{
@@ -40,26 +42,28 @@
 }
 
 ul{
-	margin: auto;
-	width: auto;
-	float: none;
-	box-align: center;
-	text-align: center;
-	 
+	display: flex;
+	border: 1px solid red;
+	width: 70%;
+	height: 70px;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 10px;
+
 }
 
 li{
-	margin-top: 10px;
-	width: 100px;
-	height: 30px;
-	border-radius: 2px;
-	display: inline-block;
-	list-style:none;
+	list-style: none;
+	
+	
+	
 }
+	
 a{
 	text-decoration:none;
-	margin: 10px;
+	
 	size: 20px;
+	
 }
 
 .landing{
@@ -71,7 +75,7 @@ a{
 }
 p{
 	text-align: center;
-	color: red;
+	color: blue;
 	font-size: 15px;
 	margin: 10px;
 	padding: 5px;
