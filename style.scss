@@ -1,0 +1,186 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0;
+}
+
+$couleur_somon:#F9E5D8;
+
+@mixin dimension ($para1, $para2) {
+    width: $para1;
+    height: $para2;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+
+
+.contener{
+    width: 80%;
+  margin: auto;
+  
+}
+
+.entete{
+    
+   @include dimension(80%,80px);
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin: auto;
+   
+    
+    margin: auto;
+
+    &_design{
+        @include dimension(15%,100%);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0px 10px;
+        
+       
+      
+        
+    }
+
+    &_menu{
+        @include dimension(70%,100%);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        justify-content: center;
+
+        
+        &_nav{
+            list-style: none; 
+            margin-right: 50px;
+            text-align: center;
+        }
+
+    } 
+
+    &_login{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background: black;
+        color: white;
+        height: 30px;
+        size: 30PX;
+        width: 10%;
+        justify-content: center;
+        margin-right: 10px;
+        &_contenu{
+           color: white;
+        }
+        
+    }
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.principal{
+    margin-top: 80px;
+    background: $couleur_somon;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+
+    &_contener_img{
+        @include dimension(50%,400px );
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &_image{
+            width: 500px;
+            height: 300px;
+        }
+    }
+    &_contener_describ{
+        @include dimension(50%,400px );
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 30px;
+    }
+}
+
+.secondaire{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    &_contener_img{
+        @include dimension(50%,400px );
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &_image{
+            width: 500px;
+            height: 300px;
+        }
+    }
+    &_contener_describ{
+        @include dimension(50%,400px );
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 30px;
+
+        &_bouton{
+            justify-content: center;
+            display: block;
+            background: black;
+            color: white;
+            @include dimension(15%,20px);
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px 2px;
+
+            .bouton_contenu{
+                color: white;
+            }
+           }
+    }
+   
+}
+
+.services{
+   
+
+    &_details{
+        @include dimension(100%,20px );
+        background: blanchedalmond;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    &_presentation{
+        @include dimension(100%,20px );
+        background: blueviolet;
+        justify-self: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+}

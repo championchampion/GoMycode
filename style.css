@@ -1,0 +1,152 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.contener {
+  width: 80%;
+  margin: auto;
+}
+
+.entete {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  margin: auto;
+  margin: auto;
+}
+.entete_design {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0px 10px;
+}
+.entete_menu {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.entete_menu_nav {
+  list-style: none;
+  margin-right: 50px;
+  text-align: center;
+}
+.entete_login {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: black;
+  color: white;
+  height: 30px;
+  size: 30PX;
+  width: 10%;
+  justify-content: center;
+  margin-right: 10px;
+}
+.entete_login_contenu {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.principal {
+  margin-top: 80px;
+  background: #F9E5D8;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.principal_contener_img {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.principal_contener_img_image {
+  width: 500px;
+  height: 300px;
+}
+.principal_contener_describ {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.secondaire {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.secondaire_contener_img {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondaire_contener_img_image {
+  width: 500px;
+  height: 300px;
+}
+.secondaire_contener_describ {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+.secondaire_contener_describ_bouton {
+  justify-content: center;
+  display: block;
+  background: black;
+  color: white;
+  width: 15%;
+  height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 2px;
+}
+.secondaire_contener_describ_bouton .bouton_contenu {
+  color: white;
+}
+
+.services_details {
+  width: 100%;
+  height: 20px;
+  background: blanchedalmond;
+  justify-content: center;
+  text-align: center;
+}
+.services_presentation {
+  width: 100%;
+  height: 20px;
+  background: blueviolet;
+  justify-self: center;
+  text-align: center;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
