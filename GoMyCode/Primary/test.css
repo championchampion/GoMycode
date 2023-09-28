@@ -1,0 +1,40 @@
+.contener{
+    display: grid;
+    grid-template-columns: repeat(6,1fr) ;
+   
+
+}
+.un{
+    background: blue;
+    width: 200px;
+    height:50px;
+}
+.deux{
+    background: red;
+    width: 200px;
+    height: 50px;
+}
+
+.trois{
+    background: blueviolet;
+    width: 200px;
+    height: 50px;
+}
+
+.quatre{
+    background: gray;
+    width: 200px;
+    height: 50px;
+}
+
+.cinq{
+    background: green;
+    width: 200px;
+    height: 50px;
+}
+
+.six{
+    background: orange;
+    width: 200px;
+    height: 50px;
+}
