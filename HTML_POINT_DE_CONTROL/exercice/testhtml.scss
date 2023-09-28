@@ -1,0 +1,88 @@
+$couleur_somon:#F9E5D8;
+
+@mixin dimension ($para1, $para2) {
+    width: $para1;
+    height: $para2;
+}
+
+.entete{
+    @include dimension(100%,80px );
+    background: silver;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+    &_logo{
+        @include dimension(15%,100% );
+        
+
+        &_img{
+            @include dimension(50%,100% );
+            margin-left: 20px;
+        }
+    }
+
+    &_navigation{
+  
+        @include dimension(80%,100%);
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        
+            &_liste{
+                list-style: none; 
+                margin-right: 70px;
+                text-align: center;
+            }
+    }
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+.corps{
+
+    background: lightcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    &_contener_video{
+        background: #FBB4E3;
+        @include dimension(40%,500px );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    &_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include dimension(60%,500px );
+        background: #6FA488;
+
+        &_apropos_form, &_cv_form, &_travail_form{
+            border-radius: 5px;
+        }
+    }
+
+    }
+
+
+.pied{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    size: 20px;
+}
